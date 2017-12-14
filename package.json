@@ -1,0 +1,23 @@
+{
+  "name": "movie-lists",
+  "version": "1.0.0",
+  "description": "All movie Lists",
+  "main": "app.js",
+  "scripts": {
+    "test": "Testing Movie List"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saptadeep7/angular-movie-lists.git"
+  },
+  "keywords": [
+    "angular",
+    "movies"
+  ],
+  "author": "Saptadeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saptadeep7/angular-movie-lists/issues"
+  },
+  "homepage": "https://github.com/Saptadeep7/angular-movie-lists#readme"
+}

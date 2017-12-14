@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="sbMovies">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SB Movies</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body ng-cloak>
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <a class="navbar-brand" href="">All Movies</a>
+          </div>
+        </nav>
+        <div class="container">
+          <movie-lists></movie-lists>
+        </div>
+        <script src="node_modules/angular/angular.js" ></script>
+        <script src="js/app.js" ></script>
+        <script src="js/components/movie-list-component.js"></script>
+    </body>
+</html>
